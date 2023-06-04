@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         getModulesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //ModulesFragment modulesFragment = new ModulesFragment();
-                //replaceFragment(modulesFragment);
-                Intent intent = new Intent(MainActivity.this, ModuleListActivity.class);
-                startActivity(intent);
+                ModulesFragment modulesFragment = new ModulesFragment();
+                replaceFragment(modulesFragment);
+                //Intent intent = new Intent(MainActivity.this, ModuleListActivity.class);
+                //startActivity(intent);
             }
         });
 
